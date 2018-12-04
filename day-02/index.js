@@ -1,0 +1,299 @@
+const _ = require('lodash')
+
+const rawInput = String.raw`efmyhuxcqqldtwjzvisepargvo
+efuyhuxckqldtwjrvrsbpargno
+efmyhuxckqlxtwjxvisbpargoo
+efmyhuxczqbdtwjzvisbpargjo
+efmyhugckqldtwjzvisfpargnq
+tfmyhuxckqljtwjzvisbpargko
+efmyhuxckqldtvuzvisbpavgno
+efmyhufcrqldtwjzvishpargno
+tfmyhuxbkqlduwjzvisbpargno
+efayhtxckqldbwjzvisbpargno
+efgyhuxckuldtwjzvisbpardno
+efmyhuxckuldtwizvisbpargqo
+efmyhuxcknldtjjzvihbpargno
+efmyhuxcnqddtwjzvisbpafgno
+efmyhubokqldtwjzvisbpargdo
+efmhhuxckqldtwdzvisbpjrgno
+efmyhuxckqldtwjrcisbpargny
+efmyhuxckqsdtwjzlisbpargng
+effyhuxckqlqtwjzjisbpargno
+nfmyhjxckqldtwjzcisbpargno
+efmyhvxckqldtwszvwsbpargno
+efmyhuxckqldtwutvisbpprgno
+kfmyhuxckqldtwzuvisbpargno
+efhyhtxckqldtwjmvisbpargno
+efmyhuhckqldtwjzvisbpxwgno
+efmyhuxcfqldtrjzvitbpargno
+efmyhudckqldtwjfvisbparvno
+ekmyhuxckqlstwjzvisbdargno
+efmyhuxckqlxtwjftisbpargno
+etsyhuxckqldtwjzvisbpargnf
+exmyhusckqldtwjzvisbpakgno
+efmyhubckqlrtljzvisbpargno
+efmyhuxckwldtwjovizbpargno
+efmyhulckqzdtwjzvisbpargpo
+efmyhuxckbcdlwjzvisbpargno
+zfmyhulckqbdtwjzvisbpargno
+efmyquxckfldtwazvisbpargno
+efxyhuxakqldtwjzvisupargno
+efmlhuxckkedtwjzvisbpargno
+efhyhuxwkqldtwjzvisbparjno
+efmyhuxfkqldtwjzvisvparyno
+efmyhuxckqfdtijzvisblargno
+efmyhuxckqldtfjzvisbwhrgno
+efmymuxcknldtwzzvisbpargno
+eomybuxckqldtwkzvisbpargno
+pfmyhuxckqldtwgzvasbpargno
+vfmyhuxcoqldtwjzvisbparvno
+eflyhuxckqldtwjzvirypargno
+efmyvuxckqldtwizvisbpaqgno
+epmyhuxckqldtwjzvesbparpno
+efoyhuxckoldtwjmvisbpargno
+efmyhuxckqydtwpzvisbpaqgno
+efmyhuxckqldezbzvisbpargno
+efmyhuxckqldtwjzvisboalxno
+efmyhuxckqldtwuzvipbjargno
+efmymuxcuqldtwjzvasbpargno
+jfmyhuxckqldtwjzvzsbpargdo
+nfmyhuxckqlntsjzvisbpargno
+efmxhuxckqgdtwjzvisbparjno
+efmyhuxckpldtpjzvpsbpargno
+efmyhuxcyqldtwjhvisbpargqo
+efmyhexgkqydtwjzvisbpargno
+ffmyhuxckqldtwjzvisbpafgnk
+efmyfuxckqldtwjpvisbpartno
+efmyhoxckcmdtwjzvisbpargno
+efmyhuxxkqldtwjzviabparyno
+jfmyhuxakqldtwgzvisbpargno
+efmjhuxckqcdtwjzvisbjargno
+efmyhuxccqldtwjzxisbxargno
+efmyhurckqldiwjzvrsbpargno
+efmyhuxckasdtwjzvisboargno
+efmyhvxckmldtwjgvisbpargno
+efmyhuxckoldtwjuvisbpardno
+efmyduxckqldtwjgvzsbpargno
+ejmyhuxckqldtwbzvisbpargnb
+efmymuxchqldtwjzvibbpargno
+efmyhjxckqldtwjgvinbpargno
+efmyhuxhyqldtwbzvisbpargno
+efmyhuxckqldtwjzvisbpzignq
+efmyuueckqldxwjzvisbpargno
+qfmyhyxckqldtwizvisbpargno
+efmyhupckqldtwjzvpgbpargno
+efmycuxckqldtwjzvfdbpargno
+efmyhugcrqldtwjfvisbpargno
+efmyhexckqldtwjzvischargno
+efmyhuxckqldtljzvasbpamgno
+efmyzdxckqldtwjovisbpargno
+efmyhuxccqldtwjzvdsbpaigno
+ufmyhuxekqldtwjzvisbpargne
+efmyhuxckqldfwozvisgpargno
+afmyhuackqldtwjzvisbdargno
+efmyauxckqldtwjzvisiparmno
+efmysuxckqldtwjzvisbeaggno
+efmyhuxckqldtwjzvisbgzigno
+efryhuxlkqldtwozvisbpargno
+lfmyhuxckqldtwjzvhsbparuno
+efmyhzxckqldswjzvisqpargno
+efmyhuxrkqldtwjzvisgpargco
+efmyhudckqldtwjzyisbkargno
+efmyhuacqqldtwjzviabpargno
+jfmyhuxckqldtwvzvicbpargno
+efmkhuxckqlftejzvisbpargno
+nfmyhuxckqldnwjzvisbxargno
+efmyhuxckqldtwjvvisjpyrgno
+efmyhuxcmxldtwjzvisbpargto
+efmyhuxckqldtwqbvpsbpargno
+efmyhuxckzldjwjzvisbplrgno
+efmywgxckqldtwxzvisbpargno
+efmsguxckqldhwjzvisbpargno
+nfmyhuxlkqldtwjzvisbgargno
+etmyhuxckqldtwjzvqsbptrgno
+efmyxuxckqldtfjzvisbyargno
+cfmihuxckqldtwjzvisbpargnf
+jfzyhuxckqldtwjzviscpargno
+efmyhuxckqldtmjzvisbpbzgno
+bfmyhuzckqldcwjzvisbpargno
+efmyhuxckqldtmjzvmslpargno
+efqyvuxckqldtwazvisbpargno
+efmecrxckqldtwjzvisbpargno
+efmyhuuckqldtwjzvisrpargnt
+efmphuxckqldtwjzvisbparmho
+ifmyhuxckqldtwjzvismpsrgno
+efmyhuookqldywjzvisbpargno
+efmyhfxckyldtwjnvisbpargno
+efmyhxhckqldtwjzvisqpargno
+efryhuxcfqldtwjzvisbparkno
+efmyhutckqldpwjzvixbpargno
+efmyoukckqldtwjzvisbpargko
+efmyhuxckqldtwjzviseparynv
+efmyhuxcksldvwjzvisbnargno
+efmyhuxckqrdtwlzmisbpargno
+efmyhuxcwqldtwjzviqapargno
+eymyhuxckqrdtwkzvisbpargno
+efmyhuxckqldtwjzpisopargnj
+efmyhuxikqldtwjzvirupargno
+efmyhuxcuzldtnjzvisbpargno
+efmyhxxikqldtwjzvisbpalgno
+efmyhuxceqldtwjzvdsbparguo
+efmyhuxwkqldtwjmvisbparxno
+efmyhuxpkqldtwjzvisfpargfo
+efmyfuxckaldtwjzvirbpargno
+efmyhuxckqrdtwjzvismprrgno
+efmyhuxckqldzwjzvisbpnrgfo
+efmyhfuckqldtwjyvisipargno
+efmyhuxcpqlqfwjzvisbpargno
+efmyyuxckqldtwjzvrsepargno
+efmphuxckqlptqjzvisbpargno
+efmyhuxnfqldtwjzvisbpmrgno
+efmyhuxckqldtwjzkisnpnrgno
+mfmyhuxckqldtwjzvisbzarcno
+efmyhuxckqldtwlzviszpargwo
+efmytuxckqndtwjqvisbpargno
+efmyzuxckqldtwjzvisbaargjo
+efmihuxckqlutwjzvimbpargno
+efmyhuxckqldgwjzvixbparono
+tfmyduxckqldtyjzvisbpargno
+ejmyhuockqldtwjzvidbpargno
+efmyheyckqkdtwjzvisbpargno
+efmyhuxckqldtwjzoisbpargfj
+efqyhuxcxqldtwxzvisbpargno
+jfmyhaxckqldtwjzvisbvargno
+hfmyhqxckqldtwjzvisbparvno
+efmyhukckqlrtwjzvqsbpargno
+efmyhuxckqldvwmzvisbparrno
+efoyhuxckqldtwjzvilwpargno
+ejmyhuxckqldtwjzxisbprrgno
+efmyhuxckqldtsjzvisupdrgno
+efzyhjxckqldtwjzvisbpasgno
+ebmyhulckqldtwjzvisbpargnr
+efmyhuxcjqlntwjzqisbpargno
+efmlocxckqldtwjzvisbpargno
+efmyhuxckqldtwjzvizkpargnm
+ebmyhuxckqldtwjzvlfbpargno
+efmyhuxckqldtwjyvisbpjrgnq
+afmyhuxckqldtwjzvpsbpargnv
+efmyxuxckqwdzwjzvisbpargno
+efmyhuxskqlqthjzvisbpargno
+efmyhuxckqldtwdzvisbearglo
+mfmyhuxckqldtzjzvisbparggo
+efmyhuqckqodtwjzvisbpadgno
+efmyhuxctqldywjzvisspargno
+efmyhuxckqqdtwjnvisbporgno
+efmyhixckqldowjzvisbpaagno
+efmyhuxckqldtsszvisbpargns
+edmyhuxckqpdtwjzrisbpargno
+efsyhuxckqldtijzvisbparano
+efmyhuxckqxdzwjzviqbpargno
+efmyhuxckqldtwjzviqqpsrgno
+efmyhuockqlatwjzvisbpargho
+efmyhuxckqldtwjzvishkavgno
+vfmyhuxckqldtwjzvksbaargno
+efmahuxckqudtwbzvisbpargno
+ewmyhixckqudtwjzvisbpargno
+efmywuxczqldtwjzvisbpargao
+efmyhuqjkqldtwyzvisbpargno
+efmyhuxekqldtwjzmksbpargno
+efmyhuxcoqtdtwjzvinbpargno
+ebmyhuxkkqldtwjzvisbdargno
+ecmyhnxckqldtwnzvisbpargno
+efmyhuxbkqldtwjzvksbpaigno
+efayhuxckqidtwjzvisbpavgno
+efmrhuxckqldswjzvisbpaugno
+efmyhuuckqldtwjyvisipargno
+xfmyhuxckqldawjzvosbpargno
+efmyhuxckklhtwjzvisbpargnq
+efmyhmxcaqldzwjzvisbpargno
+efiyhuxcksldtwjzvisbpamgno
+zfmyhuzckqldtwjzvisbparhno
+efmyhuxckqlvtwjdvisbparsno
+efmyhmxckaldtwjzmisbpargno
+efmysuxcqoldtwjzvisbpargno
+efmyhuxckqldtwjzvisbsargrb
+effyhuxckqldtwjzvisbpwfgno
+efmyhuxclqmdtwjzxisbpargno
+edmohuxckqldtwjziisbpargno
+efmyhuxckpldtwjzviubpaegno
+efmyhuxcpqldtwjzjimbpargno
+ehmyhuxckqldtwjzsisbpargnq
+efmyhcxcdqldtwjzvisbqargno
+efmjhuxckqldmwjzviybpargno
+efeyhzxckqlxtwjzvisbpargno
+efmyhuxczqadtwazvisbpargno
+efmahuxckqldtwjzvisbpafgnl
+efmyouxckqldtwjzvizbpacgno
+emmrhuxckqldtwjzvisqpargno
+exmyhuxckqlftwjnvisbpargno
+efuyhuxckqldrwjzvisbpargnw
+efmywuxfkqldtwjztisbpargno
+efmyhuxdkqldtwjzvisbpqrzno
+eemyhuxckqldrwjzvisbpajgno
+efmyiuxckqldtbjzvrsbpargno
+eqmyhuxckqldlwjzfisbpargno
+efmyhuxckqlitwuzvisbpvrgno
+ecoyhuxckqldtwjzvishpargno
+efmyhuxckcldtwjzlisbparlno
+efmyhsxcknldtwjfvisbpargno
+efmyhuxckqldtwjrvosbpargbo
+enmehuxckzldtwjzvisbpargno
+hfmyhuxckqqdtwjzvisbpawgno
+efmyhufckcjdtwjzvisbpargno
+efmxhuxckqldthjzvisfpargno
+efmyaukckqldtwjsvisbpargno
+efmyhukckqldtwpzvisbpmrgno
+dfmyhuxckqldtwjzvisbvarmno
+afmbhuxckqldtwjzvssbpargno
+efmyhuxchqldtwezvisbpargzo
+efmphuxckqlxjwjzvisbpargno
+efhyxuxckqldtwjzvisbpargko
+sfmyhexckqldtwjzvisbqargno
+efmghuxckqldtwjzvitbparnno`
+
+const testInput = ['abcdef', 'bababc', 'abbcde', 'abcccd', 'aabcdd', 'abcdee', 'ababab']
+
+const inputArray = rawInput.split("\n")
+
+let twoLetterCount = 0;
+let threeLetterCount = 0;
+
+for (let a = 0; a < inputArray.length; a++) {
+  let counts = {};
+  let str = inputArray[a]
+  let ch, index, len, count;
+
+  let twoCountBoolean = false
+  let threeCountBoolean = false
+
+  for (index = 0, len = str.length; index < len; ++index) {
+    ch = str.charAt(index);
+    count = counts[ch];
+    counts[ch] = count ? count + 1 : 1;
+  }
+
+  for (var b in counts) {
+    if (counts[b] === 2) {
+      twoCountBoolean = true
+    }
+    if (counts[b] === 3) {
+      threeCountBoolean = true
+    }
+  }
+
+  if (twoCountBoolean) {
+    twoLetterCount += 1
+  }
+  if (threeCountBoolean) {
+    threeLetterCount += 1
+  }
+
+  console.log(counts);
+  console.log(`twoCountBoolean: ${twoCountBoolean}`);
+  console.log(`threeCountBoolean: ${threeCountBoolean}`);
+  console.log(`twoLetterCount: ${twoLetterCount}`);
+  console.log(`threeLetterCount: ${threeLetterCount}`);
+  console.log('--------');
+}
+let checksum = twoLetterCount * threeLetterCount
+console.log(`Checksum: ${checksum}`);
